@@ -5,11 +5,13 @@ import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
+import NavBar from "./components/NavBar/NavBar";
 
 const App = () => {
   return (
     <div>
       <BrowserRouter>
+      <NavBar/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" exact element={<About />} />
