@@ -1,5 +1,5 @@
 import styles from "./App.module.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import About from "./components/About/About";
 import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
@@ -10,8 +10,8 @@ import NavBar from "./components/NavBar/NavBar";
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
-      <NavBar/>
+      <HashRouter>
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" exact element={<About />} />
@@ -19,7 +19,7 @@ const App = () => {
           <Route path="/skills" exact element={<Skills />} />
           <Route path="/contact" exact element={<Contact />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       {/* <h1>test</h1> */}
     </div>
   );
