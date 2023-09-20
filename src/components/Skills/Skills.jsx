@@ -1,10 +1,38 @@
 import styles from "./Skills.module.css";
-import appStyles from './../../App.module.css';
+import appStyles from "./../../App.module.css";
+import Header from "./../Header/Header";
+import FooterLink from "./../FooterLink/FooterLink";
+import skillsVector from "./../../assets/skills_vector.png";
+import { skillList } from "./../../assets/skillsData";
+import SkillCard from "./SkillCard";
+import test from "./../../assets/js.png";
 
 const Skills = () => {
   return (
-    <div className={appStyles['section-container']}>
-      <h1>Skills</h1>
+    <div className={appStyles["section-container"]}>
+      <Header
+        heading="My Skills."
+        details="Passionate about new technologies, I keep"
+      />
+
+      <div className={styles["skill-card-container"]}>
+        {skillList.map((skill) => {
+          console.log(skill.skillUrl);
+          return (
+            <SkillCard skillName={skill.skillName} skillUrl={skill.skillUrl} />
+          );
+        })}
+      </div>
+
+      <a href="https://icons8.com">Icons8</a>
+      <FooterLink phrase="Get in " link="touch." />
+      <div className={styles["skills-vector-frame"]}>
+        <img
+          src={skillsVector}
+          alt="skills"
+          className={styles["skills-vector"]}
+        />
+      </div>
     </div>
   );
 };
