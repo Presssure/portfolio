@@ -1,5 +1,5 @@
 import styles from "./App.module.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import About from "./components/About/About";
 import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
@@ -11,8 +11,8 @@ import GoHome from "./components/GoHome/GoHome";
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
-      <NavBar/>
+      <HashRouter>
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" exact element={<About />} />
@@ -21,8 +21,7 @@ const App = () => {
           <Route path="/contact" exact element={<Contact />} />
           
         </Routes>
-        <GoHome/>
-      </BrowserRouter>
+      </HashRouter>
       {/* <h1>test</h1> */}
     </div>
   );
