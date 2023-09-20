@@ -26,3 +26,6 @@ const App = () => {
 };
 
 export default App;
+
+// got gifs from here
+// https://lottiefiles.com/
