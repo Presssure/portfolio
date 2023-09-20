@@ -21,6 +21,7 @@ const App = () => {
           <Route path="/contact" exact element={<Contact />} />
           
         </Routes>
+        <GoHome/>
       </HashRouter>
       {/* <h1>test</h1> */}
     </div>

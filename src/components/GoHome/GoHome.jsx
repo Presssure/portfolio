@@ -5,6 +5,9 @@ import homeBlack from './../../assets/home_black.png';
 // Only to test programtic naigation
 const GoHome = ()=>{
 
+    // navigateToHome=()=>{
+        
+    // }
     return(
         <button>
             <img className={styles['go-home-btn']} src={homeBlack} alt='home icon'/>
