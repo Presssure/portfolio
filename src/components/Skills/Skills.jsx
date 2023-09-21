@@ -5,7 +5,6 @@ import FooterLink from "./../FooterLink/FooterLink";
 import skillsVector from "./../../assets/skills_vector.png";
 import { skillList } from "./../../assets/skillsData";
 import SkillCard from "./SkillCard";
-import test from "./../../assets/js.png";
 
 const Skills = () => {
   return (
@@ -17,14 +16,11 @@ const Skills = () => {
 
       <div className={styles["skill-card-container"]}>
         {skillList.map((skill) => {
-          console.log(skill.skillUrl);
-          return (
-            <SkillCard skillName={skill.skillName} skillUrl={skill.skillUrl} />
-          );
+          return <SkillCard skillName={skill.skillName} />;
         })}
       </div>
 
-      <a href="https://icons8.com">Icons8</a>
+      {/* <a href="https://icons8.com">Icons8</a> */}
       <FooterLink phrase="Get in " link="touch." />
       <div className={styles["skills-vector-frame"]}>
         <img
