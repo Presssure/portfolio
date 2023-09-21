@@ -11,7 +11,7 @@ const Skills = () => {
   return (
     <div className={appStyles["section-container"]}>
       <Header
-        heading="My Skills."
+        header="My Skills."
         details="Passionate about new technologies, I keep"
       />
 
