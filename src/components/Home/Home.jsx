@@ -7,11 +7,13 @@ import Modal from "./../Modal/Modal";
 const Home = () => {
   const [showModal, setShowModal] = useState(false);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setShowModal(true);
-    }, 500);
-  }, []);
+  // For annoucements currently grayed out
+
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setShowModal(true);
+  //   }, 500);
+  // }, []);
 
   const closeModal = () => {
     setShowModal(false);

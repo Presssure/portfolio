@@ -18,7 +18,11 @@ const Contact = () => {
       />
 
       <div className={styles["contact-form-container"]}>
-        <form className={styles["contact-form"]}>
+        <form
+          className={styles["contact-form"]}
+          action="https://formspree.io/f/xbjvzpko"
+          method="POST"
+        >
           <input
             type="email"
             placeholder="Your Email"

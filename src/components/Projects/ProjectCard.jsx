@@ -8,7 +8,11 @@ const ProjectCard = ({ projectName, projectDescription, projectUrl }) => {
   return (
     <div className={styles["project-card"]}>
       <div className={styles["image-container"]}>
-        <a href={projectUrl} className={styles["project-external-link"]}>
+        <a
+          href={projectUrl}
+          className={styles["project-external-link"]}
+          target="_blank"
+        >
           <img
             src={require(`./../../assets/projects/${imageUrl}.png`)}
             alt="project"

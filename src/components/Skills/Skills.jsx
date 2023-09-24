@@ -15,9 +15,10 @@ const Skills = () => {
       />
 
       <div className={styles["skill-card-container"]}>
-        {skillList.map((skill) => {
+        {/* {skillList.map((skill) => {
           return <SkillCard skillName={skill.skillName} />;
-        })}
+        })} */}
+        <SkillCard skillname="javascript" />
       </div>
 
       {/* <a href="https://icons8.com">Icons8</a> */}

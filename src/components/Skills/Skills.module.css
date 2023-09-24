@@ -55,3 +55,50 @@
         margin: 80px 10%;
     }
 }
+
+.circle{
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 0;
+}
+
+.circle:before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: green;
+    transition: .5s;
+    z-index: 2;
+}
+
+.circle:hover:before{
+    top: 0;
+}
+
+.icon{
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+    width: 90px;
+    height: 90px;
+}
+
+a:hover .icon{
+    color: #fff;
+  transform: rotateY(360deg);
+  filter:invert(100%);
+}
