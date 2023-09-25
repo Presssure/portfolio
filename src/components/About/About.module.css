@@ -3,6 +3,7 @@
     flex-direction:row;
     flex-wrap:wrap;
     padding: 60px 80px 80px 80px;
+    color: white;
 }
 
 .about-main-left,

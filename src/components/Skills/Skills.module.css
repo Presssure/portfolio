@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 80px 20%;
+    
 }
 
 .skill {
@@ -26,7 +27,7 @@
     line-height: 36px;
     text-align: center;
     letter-spacing: -0.015em;
-    color: #000;
+    color: white;
     margin: 0;
 }
 
@@ -70,10 +71,11 @@
     overflow: hidden;
     border: 3px solid #fff;
     z-index: 0;
+    
 }
 
 .circle:before{
-    content: "";
+    /* content: "";
     position: absolute;
     top: 100%;
     left: 0;
@@ -81,7 +83,8 @@
     height: 100%;
     background: green;
     transition: .5s;
-    z-index: 2;
+    z-index: 2; */
+    
 }
 
 .circle:hover:before{
@@ -98,7 +101,9 @@
 }
 
 a:hover .icon{
-    color: #fff;
+/* color: #fff; */
   transform: rotateY(360deg);
   filter:invert(100%);
+  /* filter: brightness(1000); */
 }
+

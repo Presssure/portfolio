@@ -24,6 +24,8 @@ select:focus{
     justify-content: center;
     align-items: center;
     align-content: center;
+    background-color: rgb(54,54,54);
+    /* background-color: #FFFACD; */
 }
 
 @media only screen  and (max-width:640px){

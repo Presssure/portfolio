@@ -13,11 +13,12 @@
     line-height: 57px;
     text-align: center;
     letter-spacing: 0.2px;
-    color: #000;
+    color: white;
     margin: 0;
 }
 
 .header-container > p {
+    color: white;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;

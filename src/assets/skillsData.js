@@ -1,42 +1,42 @@
 export const skillList = [
   {
     skillName: "HTML",
-    skillUrl: "",
+    skillColor: "#e44d26",
   },
   {
     skillName: "CSS",
-    skillUrl: "",
+    skillColor: "#379ad6",
   },
   {
     skillName: "JavaScript",
-    skillUrl: "",
+    skillColor: "#f7df1e",
   },
   {
     skillName: "React",
-    skillUrl: "./react.png",
+    skillColor: "#61dafb",
   },
-  {
-    skillName: "Redux",
-    skillUrl: "",
-  },
-  {
-    skillName: "NodeJS",
-    skillUrl: "",
-  },
-  {
-    skillName: "TypeScript",
-    skillUrl: "",
-  },
-  {
-    skillName: "Java",
-    skillUrl: "",
-  },
-  {
-    skillName: "C#",
-    skillUrl: "",
-  },
-  {
-    skillName: "MongoDB",
-    skillUrl: "",
-  },
+  // {
+  //   skillName: "Redux",
+  //   skillColor: "",
+  // },
+  // {
+  //   skillName: "NodeJS",
+  //   skillUrl: "",
+  // },
+  // {
+  //   skillName: "TypeScript",
+  //   skillUrl: "",
+  // },
+  // {
+  //   skillName: "Java",
+  //   skillUrl: "",
+  // },
+  // {
+  //   skillName: "C#",
+  //   skillUrl: "",
+  // },
+  // {
+  //   skillName: "MongoDB",
+  //   skillUrl: "",
+  // },
 ];

@@ -8,7 +8,8 @@
 
 
 :global(.bm-burger-bars){
-    background:#373a47;
+    /* background:#373a47; */
+    background:rgb(223,223,223);
 }
 
 :global(.bm-burger-bars-hover){
