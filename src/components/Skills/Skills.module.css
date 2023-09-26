@@ -73,17 +73,20 @@
     z-index: 0;
     
 }
+:sColor{
+    --skills-color:green;
+    }
 
 .circle:before{
-    /* content: "";
+    content: "";
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
     height: 100%;
-    background: green;
+    background: var(--skills-color,aqua);
     transition: .5s;
-    z-index: 2; */
+    z-index: 2;
     
 }
 
@@ -99,8 +102,7 @@
     width: 90px;
     height: 90px;
 }
-
-a:hover .icon{
+button:hover .icon{
 /* color: #fff; */
   transform: rotateY(360deg);
   filter:invert(100%);

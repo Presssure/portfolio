@@ -1,11 +1,13 @@
+import { useEffect } from "react";
 import styles from "./Skills.module.css";
+
 
 const SkillCard = ({ skillName, skillColor }) => {
   let skillUrl = skillName;
   skillUrl = skillUrl.toLowerCase();
   skillUrl = skillUrl.replace(" ", "-");
 
-  console.log(skillColor);
+  // console.log(skillColor);
 
   const color = {
     // Define the hover style
@@ -23,9 +25,20 @@ const SkillCard = ({ skillName, skillColor }) => {
     },
   };
 
+
+  useEffect(()=>{
+
+    const c=getComputedStyle(document.documentElement).getPropertyValue('--logo-color');
+    console.log(c);
+  },[]);
+
+  function setColor (newColor){
+    document.documentElement.style.setProperty('--logo-color', newColor);
+}
+
   return (
-    <div className={styles["skill"]}>
-      <a className={styles.circle} style={color}>
+    <div className={styles["skill"]} id='sColor'>
+      <button onClick={() => setColor('orange')} className={styles.circle}>
         <img
           alt="skill"
           className={`${styles.icon} ${styles.fab}`}
@@ -33,7 +46,7 @@ const SkillCard = ({ skillName, skillColor }) => {
         />
 
         {/* <img alt="skill" src={js} className={`${styles.icon} ${styles.fab}`} /> */}
-      </a>
+      </button>
       <p>{skillName}</p>
     </div>
   );
