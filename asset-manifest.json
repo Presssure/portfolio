@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ee666b73.css",
+    "main.js": "/portfolio/static/js/main.d7ffca26.js",
+    "static/media/about_anime.gif": "/portfolio/static/media/about_anime.986764c2696118dcbe90.gif",
+    "static/media/home_anime.gif": "/portfolio/static/media/home_anime.f372ef867ab6dc71a52b.gif",
+    "static/media/skills_vector.png": "/portfolio/static/media/skills_vector.1fb5f4a4d14c368c84df.png",
+    "static/media/about_vector.png": "/portfolio/static/media/about_vector.c42fe3db5738a7e28724.png",
+    "static/media/portfolio-website.png": "/portfolio/static/media/portfolio-website.f70b7f4a60983f08f910.png",
+    "static/media/contact_vector.png": "/portfolio/static/media/contact_vector.1f3936c4dbee6daaaa77.png",
+    "static/media/neons-type.png": "/portfolio/static/media/neons-type.b9a79d9a05a5b0f1d9ff.png",
+    "static/media/pokedex.png": "/portfolio/static/media/pokedex.815f75e88f5789b43641.png",
+    "static/media/name-it.png": "/portfolio/static/media/name-it.66b7fc2fab9c3533c065.png",
+    "static/media/react.png": "/portfolio/static/media/react.0674c4c2c8535d45d90a.png",
+    "static/media/flexbox-cheatsheet.png": "/portfolio/static/media/flexbox-cheatsheet.e97486c889ebeb88b76a.png",
+    "static/media/html.png": "/portfolio/static/media/html.a29e2c8e8d79229e04b3.png",
+    "static/media/css.png": "/portfolio/static/media/css.34cc6c2dc98f92cc9879.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.7907e4698c4cfdef27d9.png",
+    "index.html": "/portfolio/index.html",
+    "main.ee666b73.css.map": "/portfolio/static/css/main.ee666b73.css.map",
+    "main.d7ffca26.js.map": "/portfolio/static/js/main.d7ffca26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee666b73.css",
+    "static/js/main.d7ffca26.js"
+  ]
+}
