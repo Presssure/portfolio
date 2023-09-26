@@ -20,10 +20,10 @@ const Skills = () => {
             <SkillCard
               skillName={skill.skillName}
               skillColor={skill.skillColor}
+              key={skill.skillName}
             />
           );
         })}
-        {/* <SkillCard skillname="javascript" /> */}
       </div>
 
       {/* <a href="https://icons8.com">Icons8</a> */}

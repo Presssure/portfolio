@@ -74,7 +74,7 @@
     
 }
 :sColor{
-    --skills-color:green;
+    --skills-color:white;
     }
 
 .circle:before{
@@ -102,7 +102,7 @@
     width: 90px;
     height: 90px;
 }
-button:hover .icon{
+a:hover .icon{
 /* color: #fff; */
   transform: rotateY(360deg);
   filter:invert(100%);

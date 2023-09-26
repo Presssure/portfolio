@@ -15,6 +15,22 @@ export const skillList = [
     skillName: "React",
     skillColor: "#61dafb",
   },
+  {
+    skillName: "C++",
+    skillColor: "#659AD2",
+  },
+  {
+    skillName: "C Sharp",
+    skillColor: "#9B4F96",
+  },
+  {
+    skillName: "Python",
+    skillColor: "#FFCD3A",
+  },
+  {
+    skillName: "Java",
+    skillColor: "#F8981D",
+  },
   // {
   //   skillName: "Redux",
   //   skillColor: "",
