@@ -42,7 +42,8 @@
     width: 100%;
     text-align: center;
     padding: 17px 35px;
-    background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%);
+    /* background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%); */
+    background:#84a0ad;
     border-radius: 35px;
 }
 
@@ -62,6 +63,7 @@
 .social-icon:hover,
 .contact-btn:hover {
     filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.32));
+    filter:brightness(80%);
     cursor: pointer;
     transition: all 0.3s;
 }

@@ -37,10 +37,13 @@
 }
 
 :global(.bm-menu){
-    background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%);
+    /* background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%); */
+    background:linear-gradient(150deg, #84a0ad95 30%,#ffffff );
     padding: 2.5em 1.5em 0 0;
     height:100vh;
     overflow:hidden !important;
+    /* opacity: 50%; */
+    
 
 }
 
