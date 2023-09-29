@@ -7,6 +7,7 @@ import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
 import NavBar from "./components/NavBar/NavBar";
 import GoHome from "./components/GoHome/GoHome";
+import NewHome from "./components/NewHome/NewHome";
 
 const App = () => {
   return (
@@ -14,12 +15,11 @@ const App = () => {
       <HashRouter>
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<NewHome />} />
           <Route path="/about" exact element={<About />} />
           <Route path="/projects" exact element={<Projects />} />
           <Route path="/skills" exact element={<Skills />} />
           <Route path="/contact" exact element={<Contact />} />
-          
         </Routes>
         {/* <GoHome/> */}
       </HashRouter>

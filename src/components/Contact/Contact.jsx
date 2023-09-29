@@ -58,7 +58,7 @@ const Contact = () => {
             alt="linkedin icon"
           />
         </a>
-        <a href="https://instagram">
+        {/* <a href="https://instagram">
           <img
             className={styles["social-icon"]}
             src={instagram}
@@ -71,12 +71,12 @@ const Contact = () => {
             src={medium}
             alt="meidum icon"
           />
-        </a>
+        </a> */}
         <a href="web">
           <img className={styles["social-icon"]} src={web} alt="web icon" />
         </a>
       </div>
-      <FooterLink phrase="Read more " toAddress={"/about"} link="about me." />
+      <FooterLink phrase="Read more " toAddress={"/"} link="about me." />
 
       <div className={styles["vector-frame"]}>
         <img

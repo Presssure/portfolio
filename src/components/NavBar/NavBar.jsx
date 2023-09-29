@@ -8,8 +8,8 @@ const NavBar = () => {
   const location = useLocation();
 
   const homeClass = location.pathname === "/" ? styles["active-item"] : "";
-  const aboutClass =
-    location.pathname === "/about" ? styles["active-item"] : "";
+  // const aboutClass =
+  //   location.pathname === "/about" ? styles["active-item"] : "";
   const projectsClass =
     location.pathname === "/projects" ? styles["active-item"] : "";
   const skillsClass =
@@ -22,9 +22,9 @@ const NavBar = () => {
       <Link className={`${styles["menu-item"]} ${homeClass}`} to="/">
         Home
       </Link>
-      <Link className={` ${styles["menu-item"]} ${aboutClass}`} to="/about">
+      {/* <Link className={` ${styles["menu-item"]} ${aboutClass}`} to="/about">
         About
-      </Link>
+      </Link> */}
       <Link
         className={` ${styles["menu-item"]} ${projectsClass}`}
         to="/projects"
