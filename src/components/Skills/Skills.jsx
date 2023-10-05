@@ -9,10 +9,7 @@ import SkillCard from "./SkillCard";
 const Skills = () => {
   return (
     <div className={appStyles["section-container"]}>
-      <Header
-        header="My Skills."
-        details="Passionate about new technologies, I keep"
-      />
+      <Header header="My Skills." details="Passionate about new technologies" />
 
       <div className={styles["skill-card-container"]}>
         {skillList.map((skill) => {
