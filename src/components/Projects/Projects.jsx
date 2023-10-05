@@ -15,17 +15,22 @@ const Projects = () => {
 
       <div className={styles["project-cards-container"]}>
         {projectsData.map(
-          ({ projectName, projectDescription, imageUrl, projectUrl }) => {
+          ({
+            projectName,
+            projectDescription,
+            imageUrl,
+            projectUrl,
+            deployed,
+          }) => {
             return (
-              <div>
-                {/* <img src={imageUrl} /> */}
-                <ProjectCard
-                  projectName={projectName}
-                  projectDescription={projectDescription}
-                  imageUrl={imageUrl}
-                  projectUrl={projectUrl}
-                />
-              </div>
+              <ProjectCard
+                projectName={projectName}
+                projectDescription={projectDescription}
+                imageUrl={imageUrl}
+                projectUrl={projectUrl}
+                deployed={deployed}
+                key={projectName}
+              />
             );
           }
         )}
