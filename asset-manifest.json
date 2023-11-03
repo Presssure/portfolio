@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ec25c660.css",
-    "main.js": "/portfolio/static/js/main.ae167ea5.js",
+    "main.css": "/portfolio/static/css/main.e566da3d.css",
+    "main.js": "/portfolio/static/js/main.672ac872.js",
     "static/media/me.gif": "/portfolio/static/media/me.f3a2c9fc42ac161d60a1.gif",
     "static/media/about_anime.gif": "/portfolio/static/media/about_anime.986764c2696118dcbe90.gif",
     "static/media/home_anime.gif": "/portfolio/static/media/home_anime.f372ef867ab6dc71a52b.gif",
@@ -24,11 +24,11 @@
     "static/media/c-sharp.png": "/portfolio/static/media/c-sharp.2af31386f5727fc37154.png",
     "static/media/c++.png": "/portfolio/static/media/c++.74d9a5ad53a21f9718e0.png",
     "index.html": "/portfolio/index.html",
-    "main.ec25c660.css.map": "/portfolio/static/css/main.ec25c660.css.map",
-    "main.ae167ea5.js.map": "/portfolio/static/js/main.ae167ea5.js.map"
+    "main.e566da3d.css.map": "/portfolio/static/css/main.e566da3d.css.map",
+    "main.672ac872.js.map": "/portfolio/static/js/main.672ac872.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec25c660.css",
-    "static/js/main.ae167ea5.js"
+    "static/css/main.e566da3d.css",
+    "static/js/main.672ac872.js"
   ]
 }
